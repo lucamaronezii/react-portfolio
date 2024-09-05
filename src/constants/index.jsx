@@ -86,7 +86,7 @@ export const PROJECTS = [
     description: `Uma aplicação de gerenciamento de ocorrências fundamentado na norma ISO/IEC 20000. Apresenta dashboard administrativo, 
       gerenciamento de ocorrências abertas e fechadas de forma detalhada, visualização por Kanban interativo e lista, matriz de rastreabilidade 
       de conflitos etc.`,
-    technologies: ["React", "Typescript", "Ant Design", "dnd-kit"],
+    technologies: ["React", "Typescript", "Docker", "Ant Design", "dnd-kit"],
   },
   {
     title: "CAPZ Fidelity",
