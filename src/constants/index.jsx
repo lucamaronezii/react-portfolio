@@ -5,6 +5,7 @@ import portfolio from "../assets/portfolio.png";
 import extension from "../assets/projects/extension.png";
 import fidelity from "../assets/projects/fidelity.png";
 import softports from "../assets/projects/softports.png";
+import goals from "../assets/projects/goal_manager.png"
 
 export const HERO_CONTENT = `Sou um desenvolvedor full-stack com um ano de experiência, especializado em React e Typescript no front-end e atualmente expandindo minhas habilidades para o back-end com Node.js e C#/.NET Framework. Prestes a me formar em Engenharia de Software pela PUCPR, adquiri uma sólida base teórica e prática ao longo de quatro anos de estudos. Meu principal objetivo é criar soluções de alta qualidade que proporcionem uma excelente experiência ao usuário, unindo desempenho e usabilidade em cada projeto.`;
 
@@ -101,6 +102,14 @@ export const PROJECTS = [
     description: `Uma extensão do WhatsApp que consumia APIs Restful para gerenciar leads, tarefas, propostas, pedidos etc. Ao clicar no contato de 
       uma pessoa, os respectivos dados do indivíduo eram exibidos.`,
     technologies: ["React", "Typescript", "MaterialUI"],
+  },
+  {
+    title: "Goals manager",
+    image: goals,
+    description: `Uma ferramenta para gerenciamento de metas pessoais. Possibilidade de criar novas metas e definir a quantidade por semana,
+      listando as metas concluídas por dia.
+    `,
+    technologies: ["Node.js", "React", "Typescript", "PostgreSQL"]
   },
   {
     title: "Portfólio pessoal",
