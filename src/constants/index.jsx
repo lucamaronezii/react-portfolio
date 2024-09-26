@@ -6,6 +6,7 @@ import extension from "../assets/projects/extension.png";
 import fidelity from "../assets/projects/fidelity.png";
 import softports from "../assets/projects/softports.png";
 import goals from "../assets/projects/goal_manager.png"
+import tasks from "../assets/projects/task_manager.png"
 
 export const HERO_CONTENT = `Sou um desenvolvedor full-stack com um ano de experiência, especializado em React e Typescript no front-end e atualmente expandindo minhas habilidades para o back-end com Node.js e C#/.NET Framework. Prestes a me formar em Engenharia de Software pela PUCPR, adquiri uma sólida base teórica e prática ao longo de quatro anos de estudos. Meu principal objetivo é criar soluções de alta qualidade que proporcionem uma excelente experiência ao usuário, unindo desempenho e usabilidade em cada projeto.`;
 
@@ -104,7 +105,14 @@ export const PROJECTS = [
     technologies: ["React", "Typescript", "MaterialUI"],
   },
   {
-    title: "Goals manager",
+    title: "Task planner",
+    image: tasks,
+    description: `Uma ferramenta responsiva para administrar tarefas diárias. Conta com CRUD completo de tarefa e busca avançada por filtros
+      de data, prioridade, categoria e status.`,
+    technologies: ["Node.js", "React", "Vite", "Typescript", "PostgreSQL"]
+  },
+  {
+    title: "Goal manager",
     image: goals,
     description: `Uma ferramenta para gerenciamento de metas pessoais. Possibilidade de criar novas metas e definir a quantidade por semana,
       listando as metas concluídas por dia.
